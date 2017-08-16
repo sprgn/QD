@@ -1,3 +1,6 @@
+QDS 3.253.1:
+
+* [QD-1027] BUGFIX: TLS protocols and cipher suites system property are not used in the SSLConnectionFactory
 
 QDS 3.253:
 
