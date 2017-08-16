@@ -13,7 +13,7 @@
 	<groupId>com.devexperts.qd</groupId>
 	<artifactId>QD</artifactId>
 	<packaging>pom</packaging>
-	<version>3.253.1-SNAPSHOT</version>
+	<version>3.253.1</version>
 
 	<organization>
 		<name>Devexperts</name>
@@ -570,7 +570,7 @@
 	<scm>
 		<url>https://stash.in.devexperts.com/scm/mdd/qd.git</url>
 		<connection>scm:git:ssh://git@stash.in.devexperts.com:7999/mdd/qd.git</connection>
-	  <tag>HEAD</tag>
+	  <tag>qd-qds-3.253.1</tag>
   </scm>
 
 	<distributionManagement>
