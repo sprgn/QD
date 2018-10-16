@@ -90,7 +90,7 @@ public class ExecutorProvider {
 			return;
 		assert refCount > 0;
 		if (--refCount == 0 && nThreads != FIXED_EXECUTOR_THREADS) {
-			((ExecutorService)createdExecutor).shutdown();
+			((ExecutorService) createdExecutor).shutdown();
 			createdExecutor = null;
 		}
 	}
