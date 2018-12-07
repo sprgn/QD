@@ -54,7 +54,7 @@ public class DayUtilTest extends TestCase {
 			assertEquals(month, cal.get(Calendar.MONTH) + 1);
 			assertEquals(day, cal.get(Calendar.DAY_OF_MONTH));
 			assertEquals(0, millis % TimeUtil.DAY);
-			int dayId = (int)(millis / TimeUtil.DAY);
+			int dayId = (int) (millis / TimeUtil.DAY);
 			assertEquals(yyyymmddString, dayId, DayUtil.getDayIdByYearMonthDay(year, month, day));
 			assertEquals(yyyymmddString, dayId, DayUtil.getDayIdByYearMonthDay(yyyymmdd));
 			assertEquals(yyyymmddString, yyyymmdd, DayUtil.getYearMonthDayByDayId(dayId));
